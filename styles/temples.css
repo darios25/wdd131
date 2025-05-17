@@ -1,0 +1,57 @@
+
+/* Stili base per la visualizzazione mobile */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+    background: #444;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background: #555;
+}
+
+#menu-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+figure {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 1rem;
+}
+
