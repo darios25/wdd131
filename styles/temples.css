@@ -1,5 +1,5 @@
 
-/* Stili base per la visualizzazione mobile */
+/* Basic styles for mobile view */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -15,7 +15,7 @@ header {
 
 nav {
     display: none;
-    flex-direction: column;
+    flex-direction: flex;
     background: #444;
 }
 

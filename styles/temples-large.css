@@ -1,4 +1,4 @@
-/* Stili per la visualizzazione desktop */
+/* Desktop View Styles */
 @media screen and (min-width: 768px) {
     nav {
         display: flex;
