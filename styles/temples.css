@@ -49,6 +49,10 @@ figure {
     padding: 10px;
 }
 
+img{
+    width: 200px;
+}
+
 footer {
     background: #222;
     color: white;
