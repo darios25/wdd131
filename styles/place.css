@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #2A9D8F;
+    --secondary-color: #E9C46A;
+    --text-color: #264653;
+    --background-color: #F4A261;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.weather::after {
+    content: " ⛅";
+    font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: var(--secondary-color);
+    }
+}
+
+
+
+
+
