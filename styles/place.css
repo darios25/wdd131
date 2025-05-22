@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #2A9D8F;
+    --primary-color: red;
     --secondary-color: #E9C46A;
     --text-color: #264653;
     --background-color: #F4A261;
@@ -15,7 +15,7 @@ body {
 
 header {
     background-color: var(--primary-color);
-    color: red;
+    color: yellow;
     text-align: center;
     padding: 1rem;
 }
