@@ -3,6 +3,8 @@
     --secondary-color: #E9C46A;
     --text-color: #264653;
     --background-color: #F4A261;
+    --heading-font: 'Merriweather', serif;
+    --body-font: 'Boldonse', sans-serif;
 }
 
 body {
@@ -20,9 +22,29 @@ header {
     padding: 1rem;
 }
 
+.hero{
+    grid-column: 1/3;
+    grid-row: 1/3;
+
+}
+
 .hero img {
     width: 100%;
     height: auto;
+}
+
+.weather{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: rgba(225, 225, 225, 0.8);
+    width: 300px;
+}
+
+.info{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: rgba(225, 225, 225, 0.8);
+    width: 300px;
 }
 
 .weather::after {
@@ -40,7 +62,13 @@ footer {
     background: #222;
     color: white;
     padding: 1rem;
+    text-align: center;
 }
 
-
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+}
 
