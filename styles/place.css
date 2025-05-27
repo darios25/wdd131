@@ -1,8 +1,8 @@
 :root {
     --primary-color: red;
-    --secondary-color: #E9C46A;
+    --secondary-color: white;
     --text-color: #264653;
-    --background-color: #F4A261;
+    --background-color:white;
     --heading-font: 'Merriweather', serif;
     --body-font: 'Boldonse', sans-serif;
 }
