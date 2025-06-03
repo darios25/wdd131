@@ -77,7 +77,7 @@ const temples = [
     dedicated: "2019, March, 10-12",
     area: 41010,
     imageUrl: 
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy-temple/400x250/rome-italy-temple-2642-wallpaper.jpg"
+    "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-3544.jpg"
   },
 
   {
@@ -86,7 +86,7 @@ const temples = [
     dedicated: "1955, september, 11",
     area: 35546,
     imageUrl:
-    "https://churchofjesuschristtemples.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x250/bern-switzerland-temple-54640-wallpaper.jpg"
+    "https://churchofjesuschristtemples.org/assets/img/temples/bern-switzerland-temple/bern-switzerland-temple-3077.jpg"
   }
 ];
 
