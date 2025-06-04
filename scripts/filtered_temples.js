@@ -351,6 +351,8 @@ function ShowSmall() {
   })
 }
 function ShowHome(){
+  gallery.textContent = "";
+
   temples.forEach(temple => {
   const figure = document.createElement("figure");
 
