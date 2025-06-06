@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 - Dynamic Web fundamentals - Dario Giaccone</title>
-    <title>Product Review Form</title>
+    <title>WDD 131 - Dynamic Web fundamentals - Dario Giaccone - Product Review Form</title>
     <meta name="description" content="WDD 131 - Dynamic Web fundamentals - Dario Giaccone's - Product review form">
     <meta name="author" content="Dario Giaccone">
     <link rel="stylesheet" href="styles/form.css">
     <script defer src="scripts/form.js"></script>
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Product Review Form</h1>
+        <h1>Product Review</h1>
     </header>
     <form method="get" action="review.html">
         <label for="product">Product Name:</label>
@@ -35,14 +35,14 @@
             <label for="rating5">☆☆☆☆☆</label>
         </fieldset>
 
-        <label for="installation-date">Installation Date:</label>
+        <label for="installation-date">Date of Installation :</label>
         <input type="date" id="installation-date" name="installation-date" required>
 
         <fieldset>
             <legend>Useful Features:</legend>
-            <input type="checkbox" id="feature1" name="features" value="funzionalità1">
+            <input type="checkbox" id="feature1" name="features" value="feature1">
             <label for="feature1">Feature 1</label>
-            <input type="checkbox" id="feature2" name="features" value="funzionalità2">
+            <input type="checkbox" id="feature2" name="features" value="feature2">
             <label for="feature2">Feature 2</label>
         </fieldset>
 
@@ -52,15 +52,14 @@
         <label for="username">Username:</label>
         <input type="text" id="username" name="username">
 
-        <input type="submit" value="Invia recensione">
+        <input type="submit" value="Post Review">
+        
     </form>
     
     <footer>
-        <p>&copy; <span id="year"></span> ※ Dario Giaccone ※ Palermo, Sicily, Italy</p>
-        <p> modifica: <span id="last-modified"></span></p>
-        
-    </footer>
-    
+        <p>&copy; <span id="currentyear"></span> ※ Dario Giaccone ※ Palermo, Sicily, Italy</p> 
+        <p><span id="lastModified"></span></p>
+    </footer>   
 </body>
 </html>
 

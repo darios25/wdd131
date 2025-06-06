@@ -4,11 +4,12 @@ body {
     margin: 20px;
     padding: 0;
     background-color: #f9f9f9;
+    text-align: left;
 }
 
-header, footer {
+header {
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
     background-color: #333;
     color: white;
 }
@@ -17,7 +18,7 @@ form {
     max-width: 500px;
     margin: auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(211, 233, 242);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -49,5 +50,12 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #218838;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 1rem;
+    text-align: center;
 }
 

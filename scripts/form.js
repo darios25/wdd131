@@ -20,5 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Contatore recensioni con localStorage
     const reviewCounter = localStorage.getItem("reviewCount") || 0;
     localStorage.setItem("reviewCount", Number(reviewCounter) + 1);
+
+  
+ 
 });
 
