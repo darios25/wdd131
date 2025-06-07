@@ -83,10 +83,19 @@ const temples = [
   {
     templeName: "Bern switzerland",
     location: "Bern, Switzerland",
-    dedicated: "1955, september, 11",
+    dedicated: "1955, September, 11",
     area: 35546,
     imageUrl:
       "https://churchofjesuschristtemples.org/assets/img/temples/bern-switzerland-temple/bern-switzerland-temple-3077.jpg"
+  },
+
+  {
+    templeName: "Provo Utah",
+    location: "Provo, Utah",
+    dedicated: "2016, March, 20",
+    area: 85084,
+    imageUrl:
+      "https://churchofjesuschristtemples.org/assets/img/temples/provo-city-center-temple/provo-city-center-temple-3394.jpg"
   }
 ];
 
