@@ -114,23 +114,6 @@ document.getElementById("last-modified").textContent = document.lastModified;
 
 const gallery = document.querySelector(".gallery");
 
-// function filterTemples(criteria) {
-//     gallery.innerHTML = "";
-//     let filteredTemples = temples.filter(temple => {
-//         if (criteria === "Old") return parseInt(temple.dedicated.split(",")[0]) < 1900;
-//         if (criteria === "New") return parseInt(temple.dedicated.split(",")[0]) > 2000;
-//         if (criteria === "Large") return temple.area > 90000;
-//         if (criteria === "Small") return temple.area < 10000;
-//         return true; // Default case for "Home"
-//     });
-
-//     filteredTemples.forEach(temple => {
-//         const figure = document.createElement("figure");
-//         const image = document.createElement("img");
-//         image.src = temple.imageUrl;
-//         image.alt = temple.templeName;
-//         image.style.width = "100%";
-//     });
 
 temples.forEach(temple => {
   const figure = document.createElement("figure");
@@ -138,6 +121,7 @@ temples.forEach(temple => {
   const image = document.createElement("img");
   image.src = temple.imageUrl;
   image.alt = temple.templeName;
+  image.loading = "lazy"
   image.style.display = "block";
   image.style.width = "100%";
 
@@ -168,14 +152,11 @@ temples.forEach(temple => {
   gallery.appendChild(figure);
 });
 
-// document.getElementById("nav-menu").addEventListener("click", function(event) {
-//     if (event.target.tagName === "BUTTON") {
-//         filterTemples(event.target.dataset.filter);
-//     }
-// });
-// }
+
 
 function ShowOld() {
+   // Aggiorna il titolo della pagina
+  document.getElementById("page-title").textContent = "Old";
 
   gallery.textContent = ""
   temples.forEach(temple => {
@@ -221,7 +202,7 @@ function ShowOld() {
   })
 }
 function ShowNew() {
-
+  document.getElementById("page-title").textContent = "New";
   gallery.textContent = ""
   temples.forEach(temple => {
     const figure = document.createElement("figure");
@@ -266,7 +247,7 @@ function ShowNew() {
   })
 }
 function ShowLarge() {
-
+  document.getElementById("page-title").textContent = "Large";
   gallery.textContent = ""
   temples.forEach(temple => {
     const figure = document.createElement("figure");
@@ -313,7 +294,7 @@ function ShowLarge() {
   })
 }
 function ShowSmall() {
-
+  document.getElementById("page-title").textContent = "Small";
   gallery.textContent = ""
   temples.forEach(temple => {
     const figure = document.createElement("figure");
@@ -399,4 +380,6 @@ function ShowHome(){
 });
 
 }
+
+
 
