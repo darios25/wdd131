@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web fundamentals - Dario Giaccone</title>
+    <meta name="description" content="WDD 131 - Dynamic Web fundamentals - Dario Giaccone's - Final Project">
+    <meta name="author" content="Dario Giaccone">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Boldonse:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/website.css">
+    <link rel="stylesheet" href="styles/website_mobile.css">
+    <script src="scripts/website.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/trinacria..jpg" alt="Trinacria Logo" class="logo">
+        <img src="images/logo-personalizzato.jpg" alt="Logo Ente" class="logo">
+        <h1>Viaggi Sicilia</h1>
+        <p>Explore the natural beauty, culture and gastronomy of the island.</p>
+        
+        <nav id="menu">
+            <!-- <ul> -->
+                <a href="index.html">Home</a>
+                <a href="destination.html">Destinations</a>
+                <a href="adventures.html">Adventures</a>
+            <!-- </ul> -->
+        </nav>
+    
+    </header> 
+
+    <main id="home">
+        <section class="hero">
+            <picture>
+                <source srcset="images/sicily.jpg" media="(max-width: 500px)">
+                <source srcset="images/sicily.jpg" media="(max-width: 1000px)">
+                <img src="images/sicily.jpg" alt="Hero image of the place">
+            </picture>
+        </section>
+
+        <section class="about">
+            <h2>About Us</h2>
+            <p>We are a highly specialized company in the tourism sector. The company was founded on August 8, 2000 by the initiative of a group of young Sicilians who love their land and who decided to stay in the area and aim to enhance it by founding this travel company to make Sicily known to the world.</p>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p><strong>Phone number: </strong>+39 0916856782 📞</p>
+            <p><strong>email: </strong>ViaggiSicilia@libero.com 📧</p>
+            <p><strong>Address: </Address>Via della liberta' 72/a 📍</strong></p>
+        </section>
+
+        <section class="info">
+            <h2> Data </h2>
+            <p><strong>Area: </strong>25.711 km²</p>
+            <p><strong>Population: </strong> 4,785 milioni (2024)</p>     
+            <p><strong>Capital: </strong> Palermo</p>
+            <p><strong>Languages: </strong> Italian, Sicilian</p>
+            <p><strong>Currency: </strong> Euro</p>
+            <p><strong>Time Zone: </strong> GMT+2</p>
+            <p><strong>Calling Code: </strong> +39</p>
+            <p><strong>Internet TLD: </strong> .it</p>
+        </section>
+
+        <section class="weather">
+            <h2>Weather ☀️</h2>
+            <p><strong>Temperature: </strong> <span id="temp">32°C</span></p>
+            <p><strong>Conditions:</strong> <span id="cond">Sunny</span></p>
+            <p><strong>Wind Speed: </strong> <span id="wind">9 km/h</span></p>
+            <p><strong>Wind Chill Factor: </strong> <span id="windchill">N/A</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> ※ Dario Giaccone ※ Palermo, Sicily, Italy</p> 
+        <p> modifica: <span id="last-modified"></span></p>
+        <div class="sociallinks">
+                <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>

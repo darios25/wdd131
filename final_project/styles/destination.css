@@ -1,0 +1,120 @@
+
+/* Basic styles for mobile view */
+:root {
+    --primary-color: rgba(151, 4, 4, 0.947);
+    --secondary-color: white;
+    --text-color: #264653;
+    --background-color: rgb(238, 238, 190);
+    --heading-font: 'Merriweather', serif;
+    --body-font: 'Boldonse', sans-serif;
+}
+
+body {
+    font-family: var( --body-font);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: yellow;
+    text-align: center;
+    padding: 1rem;
+}
+
+    
+.logo {
+    width: 90px;
+    height: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+    background-color: yellow;
+    padding: .5rem;
+    border-radius: 15px;
+}
+
+/* body {
+    font-family: 'Boldonse', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+} */
+
+/* header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+} */
+
+/* nav {
+    display: none;
+    flex-direction: flex;
+    background: #444;
+} */
+/* 
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background: #555;
+} */
+
+/* #menu-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+} */
+
+ #trips-details{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 100px;
+}
+
+figure {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+#trips-details img {
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+    object-fit: cover;
+    border-radius: 8px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* footer {
+    background: #222;
+    color: white;
+    padding: 1rem;
+} */
+
+footer {
+    background: rgba(151, 4, 4, 0.947);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.gallery figure p span{
+     text-transform: uppercase;
+     color: blue;
+    
+
+}
