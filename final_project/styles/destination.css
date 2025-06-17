@@ -19,7 +19,7 @@ body {
 
 header {
     background-color: var(--primary-color);
-    color: yellow;
+    color: white;
     text-align: center;
     padding: 1rem;
 }
@@ -32,8 +32,8 @@ header {
 
 nav a {
     text-decoration: none;
-    color: red;
-    background-color: yellow;
+    color: var(--primary-color);
+    background-color: white;
     padding: .5rem;
     border-radius: 15px;
 }
@@ -77,16 +77,22 @@ nav a:hover {
 
  #trips-details{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    padding: 100px;
+    padding: 1rem;
+}
+
+#trips-details h2{
+    grid-column: span 3;
+    text-align: center;
 }
 
 figure {
     border: 1px solid #ccc;
     padding: 10px;
-    width: 250px;
+    /* width: 250px; */
     margin: 0 auto;
+    text-align: left;
 }
 
 #trips-details img {
@@ -117,4 +123,9 @@ footer {
      color: blue;
     
 
+}
+
+#intro {
+    padding: 1rem;
+    text-align: center;
 }

@@ -91,7 +91,7 @@ cities.forEach(city => {
   info.style.color = "black";
   info.style.padding = "5px";
   info.style.width = "100%";
-  info.style.textAlign = "center";
+  // info.style.textAlign = "center";
   info.style.fontSize = "small";
 
 
